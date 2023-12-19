@@ -1,0 +1,24 @@
+{
+  "name": "pipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "devDependencies": {
+    "array-reduce": "github:lovedder1995/array-reduce#1.0.0",
+    "php-bundler": "github:lovedder1995/php-bundler#2.0.3"
+  },
+  "scripts": {
+    "dev": "node --watch-path=main.php node_modules/php-bundler/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovedder1995/pipe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovedder1995/pipe/issues"
+  },
+  "homepage": "https://github.com/lovedder1995/pipe#readme"
+}
